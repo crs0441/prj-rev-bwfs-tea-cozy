@@ -1,0 +1,178 @@
+
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  background-color: black;
+}
+.nav {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  border: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  justify-content: space-between;
+  z-index: 3;
+}
+.main {
+  display: flex;
+}
+#logo {
+height: 50px;
+}
+.image {
+  height: 700px;
+  width: 1200px;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: block;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+  vertical-align: middle;
+  position: relative;
+  top: -400px;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  background-color: black;
+}
+.content {
+  display: inline;
+  text-align: center;
+}
+.container2 {
+  width: 1000px;
+  margin: auto;
+  vertical-align: middle;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: -100px;
+  background-color: black;
+}
+.content2 {
+  display: inline;
+  text-align: center;
+}
+.imagescontainer {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.images {
+  display: inline-block;
+  text-align: center;
+  float: left;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+  padding-top: -80px;
+  padding-right: -80px;
+  padding-left: -80px;
+}
+#image1 #image2 #image3 {
+  padding-bottom: 10px;
+}
+.images2 {
+  display: inline-block;
+  text-align: center;
+  float: left;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+  padding-top: -80px;
+  padding-right: -80px;
+  padding-left: -80px;
+}
+.imagescontainer2 {
+text-align: center;
+display: flex;
+justify-content: space-around;
+padding-left: 10px;
+padding-right: 10px;
+}
+.locations {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  position: relative;
+  display: block;
+  z-index: 1;
+  height: 500px;
+  width: 1200px;
+}
+.text {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  color: seashell;
+}
+.locationscontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  width: 1200px;
+  padding-top: -15px;
+  z-index: 1;
+  margin-top: -310px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.locationscontainer1 {
+  width: 300px;
+  justify-content: center;
+  display: block;
+  text-align: center;
+  z-index: 2;
+  margin-right: -40px;
+  background-color: black;
+  opacity: 1;
+}
+.locationscontainer2 {
+  width: 300px;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  margin-right: -40px;
+  z-index: 2;
+  background-color: black;
+  opacity: 1;
+}
+.locationscontainer3 {
+  width: 300px;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  z-index: 2;
+  background-color: black;
+  opacity: 1;
+}
+.image6 {
+  height: 700px;
+  width: 1200px;
+}
+.containerbottom {
+  vertical-align: bottom;
+  height: 200px;
+  background-color: black;
+  margin-top: 350px;
+}
+.bottomcontent {
+  text-align: center;
+}
+p {
+  margin-left: 20px;
+  text-align: left;
+}
